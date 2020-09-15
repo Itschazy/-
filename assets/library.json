@@ -1,0 +1,426 @@
+{
+    "previews": [
+        {
+            "id": "male",
+            "preview_file": "preview1.jpg",
+            "matches": [
+                "\\\bмуж.*",
+                "\\\bм\\\b",
+                "\\\bпар.?н*",
+                "\\\bмальч.*",
+                "\\\bдед.*"
+            ]
+        },
+        {
+            "id": "female",
+            "preview_file": "preview2.jpg",
+            "matches": [
+                "\\\bжен.*",
+                "\\\bж\\\b",
+                "\\\bдев.*",
+                "\\\bдоч.*",
+                "\\\bбаб.*"
+            ]
+        }
+    ],
+    "templates": [
+        {
+            "index": 1,
+            "filename": "1.png",
+            "queries": [
+                {
+                    "id": "name",
+                    "query_text": "Введите имя человека, которому предназначена открытка. Например, вот так:\nКатя!",
+                    "x": 700.0,
+                    "y": 880.0,
+                    "align": "center",
+                    "font": {
+                        "file": "Anfisa.ttf",
+                        "size": 240,
+                        "fill": "#700897",
+                        "stroke": "#ffffff",
+                        "stroke_width": 12
+                    },
+                    "shadow": {
+                        "offset_x": -12.0,
+                        "offset_y": 8.0,
+                        "alpha": 0.5,
+                        "thickness": 0
+                    }
+                },
+                {
+                    "id": "grats",
+                    "query_text": "Введите вторую строчку. Например:\nС днём рождения!",
+                    "x": 700.0,
+                    "y": 1150.0,
+                    "align": "center",
+                    "font": {
+                        "file": "Anfisa.ttf",
+                        "size": 210,
+                        "fill": "#700897",
+                        "stroke": "#ffffff",
+                        "stroke_width": 12
+                    },
+                    "shadow": {
+                        "offset_x": -12.0,
+                        "offset_y": 8.0,
+                        "alpha": 0.5,
+                        "thickness": 0
+                    }
+                }
+            ]
+            
+        },
+        {
+            "index": 2,
+            "filename": "2.png",
+            "queries": [
+                {
+                    "id": "name",
+                    "query_text": "Введите имя человека, которому предназначена открытка. Например, вот так:\nАлёне",
+                    "x": 1250.0,
+                    "y": 1150.0,
+                    "align": "right",
+                    "font": {
+                        "file": "ArabellaSwash.ttf",
+                        "size": 350,
+                        "fill": "#f17b30",
+                        "stroke": "#ffffff",
+                        "stroke_width": 9
+                    },
+                    "shadow": {
+                        "offset_x": -7.0,
+                        "offset_y": 5.0,
+                        "alpha": 0.3,
+                        "thickness": 0
+                    }
+                }
+            ]
+        },
+        {
+            "index": 3,
+            "filename": "3.png",
+            "queries": [
+                {
+                    "id": "name",
+                    "query_text": "Введите имя человека, которому предназначена открытка. Например, вот так:\nАлёна",
+                    "x": 675.0,
+                    "y": 955.0,
+                    "align": "center",
+                    "font": {
+                        "file": "Anfisa.ttf",
+                        "size": 300,
+                        "fill": "#ffffff",
+                        "stroke": "#a5a03b",
+                        "stroke_width": 3,
+                        "affine": [1, 0.2, -240.0, 0, 1, 0]
+                    },
+                    "shadow": {
+                        "offset_x": -3.0,
+                        "offset_y": 9.0,
+                        "alpha": 0.6,
+                        "thickness": 16
+                    }
+                }
+            ]
+        },
+        {
+            "index": 4,
+            "filename": "4.png",
+            "queries": [
+                {
+                    "id": "name",
+                    "query_text": "Введите имя человека, которому предназначена открытка. Например, вот так:\nЛапочке Алёне",
+                    "x": 691.0,
+                    "y": 126.0,
+                    "align": "center",
+                    "font": {
+                        "file": "Anfisa.ttf",
+                        "size": 170,
+                        "fill": "#850101",
+                        "stroke": "#ebd582",
+                        "stroke_width": 10,
+                        "affine": [1, 0, 0, 0, 1, 0]
+                    },
+                    "shadow": {
+                        "offset_x": -4.0,
+                        "offset_y": 13.0,
+                        "alpha": 0.8,
+                        "thickness": 13
+                    }
+                },
+                {
+                    "id": "grats",
+                    "query_text": "Введите короткое поздравление. Например:\nС днём рождения!",
+                    "x": 691.0,
+                    "y": 1194.0,
+                    "align": "center",
+                    "font": {
+                        "file": "Anfisa.ttf",
+                        "size": 170,
+                        "fill": "#850101",
+                        "stroke": "#ebd582",
+                        "stroke_width": 10,
+                        "affine": [1, 0, 0, 0, 1, 0]
+                    },
+                    "shadow": {
+                        "offset_x": -4.0,
+                        "offset_y": 13.0,
+                        "alpha": 0.8,
+                        "thickness": 13
+                    }
+                }
+            ]
+        },
+        {
+            "index": 5,
+            "filename": "5.png",
+            "queries": [
+                {
+                    "id": "name",
+                    "query_text": "Введите имя человека, которому предназначена открытка. Например, вот так:\nАлёне",
+                    "x": 720.0,
+                    "y": 466.0,
+                    "align": "center",
+                    "font": {
+                        "file": "ArabellaSwash.ttf",
+                        "size": 300,
+                        "fill": "#8409b1",
+                        "stroke": "#ffffff",
+                        "stroke_width": 9,
+                        "affine": [0.954, -0.3, 0, 0.3, 0.954, 0],
+                        "affine_comment": "Rotate: 17,44 deg"
+                    }
+                },
+                {
+                    "id": "grats",
+                    "query_text": "Укажите праздник. Например:\nв день рождения",
+                    "x": 615.0,
+                    "y": 630.0,
+                    "align": "center",
+                    "font": {
+                        "file": "ArabellaSwash.ttf",
+                        "size": 260,
+                        "fill": "#8409b1",
+                        "stroke": "#ffffff",
+                        "stroke_width": 9,
+                        "affine": [0.954, -0.3, 0, 0.3, 0.954, 0],
+                        "affine_comment": "Rotate: 17,44 deg"
+                    }
+                }
+            ]
+        },
+        {
+            "index": 6,
+            "filename": "6.png",
+            "queries": [
+                {
+                    "id": "name",
+                    "query_text": "Введите имя человека, которому предназначена открытка. Например, вот так:\nИгорю",
+                    "x": 20.0,
+                    "y": 1230.0,
+                    "align": "left",
+                    "font": {
+                        "file": "Beast.ttf",
+                        "size": 200,
+                        "fill": "#f6c311",
+                        "stroke": "#fee700",
+                        "stroke_width": 4
+                    },
+                    "shadow": {
+                        "offset_x": -3.0,
+                        "offset_y": 6.0,
+                        "alpha": 0.8,
+                        "thickness": 0
+                    }
+                }
+            ]
+        },
+        {
+            "index": 7,
+            "filename": "7.png",
+            "queries": [
+                {
+                    "id": "line1",
+                    "query_text": "Введите первую строчку. Например, вот так:\nПоздравляем Никиту",
+                    "x": 694.0,
+                    "y": 120.0,
+                    "align": "center",
+                    "font": {
+                        "file": "America.ttf",
+                        "size": 130,
+                        "fill": "#5aa8ff",
+                        "stroke": "#ffffff",
+                        "stroke_width": 6
+                    },
+                    "shadow": {
+                        "offset_x": -4.0,
+                        "offset_y": 0.0,
+                        "alpha": 0.8,
+                        "thickness": 0
+                    }
+                },
+                {
+                    "id": "line2",
+                    "query_text": "Введите вторую строчку. Например, вот так:\nс днём рождения!",
+                    "x": 694.0,
+                    "y": 1250.0,
+                    "align": "center",
+                    "font": {
+                        "file": "America.ttf",
+                        "size": 110,
+                        "fill": "#5aa8ff",
+                        "stroke": "#ffffff",
+                        "stroke_width": 6
+                    },
+                    "shadow": {
+                        "offset_x": -4.0,
+                        "offset_y": 0.0,
+                        "alpha": 0.8,
+                        "thickness": 0
+                    }
+                }
+            ]
+        },
+        {
+            "index": 8,
+            "filename": "8.png",
+            "queries": [
+                {
+                    "id": "name",
+                    "query_text": "Введите имя человека, которому предназначена открытка. Например, вот так:\nНиколай",
+                    "x": 1360.0,
+                    "y": 1230.0,
+                    "align": "right",
+                    "font": {
+                        "file": "America.ttf",
+                        "size": 160,
+                        "fill": "#5aa8ff",
+                        "stroke": "#ffffff",
+                        "stroke_width": 8
+                    },
+                    "shadow": {
+                        "offset_x": 0.0,
+                        "offset_y": 7.0,
+                        "alpha": 0.8,
+                        "thickness": 6
+                    }
+                },
+                {
+                    "id": "grats",
+                    "query_text": "Введите поздравление. Если оно длинное, вставьте перенос строки. Например, вот так:\nСчастливого\nдня рождения!",
+                    "x": 700.0,
+                    "y": 150.0,
+                    "align": "center",
+                    "font": {
+                        "file": "America.ttf",
+                        "size": 140,
+                        "fill": "#5aa8ff",
+                        "stroke": "#ffffff",
+                        "stroke_width": 8
+                    },
+                    "shadow": {
+                        "offset_x": 0.0,
+                        "offset_y": 7.0,
+                        "alpha": 0.8,
+                        "thickness": 5
+                    }
+                }
+            ]
+        },
+        {
+            "index": 9,
+            "filename": "9.png",
+            "queries": [
+                {
+                    "id": "name",
+                    "query_text": "Введите имя человека, которому предназначена открытка. Например, вот так:\nСтепану",
+                    "x": 200.0,
+                    "y": 700.0,
+                    "align": "left",
+                    "font": {
+                        "file": "Appetite.ttf",
+                        "size": 150,
+                        "fill": "#faf9f9",
+                        "stroke": "#ffffff",
+                        "stroke_width": 0
+                    },
+                    "shadow": {
+                        "offset_x": 0.0,
+                        "offset_y": 10.0,
+                        "alpha": 0.8,
+                        "thickness": 7
+                    }
+                },
+                {
+                    "id": "grats",
+                    "query_text": "Введите, с чем вы поздравляете человека. Например, вот так:\nС днём рождения!",
+                    "x": 700.0,
+                    "y": 900.0,
+                    "align": "center",
+                    "font": {
+                        "file": "Appetite.ttf",
+                        "size": 150,
+                        "fill": "#faf9f9",
+                        "stroke": "#ffffff",
+                        "stroke_width": 0
+                    },
+                    "shadow": {
+                        "offset_x": 0.0,
+                        "offset_y": 10.0,
+                        "alpha": 0.8,
+                        "thickness": 7
+                    }
+                },
+                {
+                    "id": "wishes",
+                    "query_text": "Введите короткое пожелание. Разбивайте текст переносами строки, иначе он будет слишком мелким. Например, вот так:\nПусть все дороги ведут к успеху,\nа все планы воплощаются в жизнь\nна максимальной скорости!",
+                    "x": 200.0,
+                    "y": 1100.0,
+                    "align": "left",
+                    "font": {
+                        "file": "Appetite.ttf",
+                        "size": 100,
+                        "fill": "#faf9f9",
+                        "stroke": "#ffffff",
+                        "stroke_width": 0
+                    },
+                    "shadow": {
+                        "offset_x": 0.0,
+                        "offset_y": 10.0,
+                        "alpha": 0.8,
+                        "thickness": 5
+                    }
+                }
+            ]
+        },
+        {
+            "index": 10,
+            "filename": "10.png",
+            "queries": [
+                {
+                    "id": "name",
+                    "query_text": "Введите имя человека, которому предназначена открытка. Например, вот так:\nАндрей!",
+                    "x": 450.0,
+                    "y": 350.0,
+                    "align": "center",
+                    "font": {
+                        "file": "Beast.ttf",
+                        "size": 230,
+                        "fill": "#ffffff",
+                        "stroke": "#fee700",
+                        "stroke_width": 0,
+                        "affine": [0.899, -0.438, 250, 0.438, 0.899, -230],
+                        "affine_comment": "Rotate: 26 deg"
+                    },
+                    "shadow": {
+                        "offset_x": -2.0,
+                        "offset_y": 7.0,
+                        "alpha": 0.8,
+                        "thickness": 8
+                    }
+                }
+            ]
+        }
+    ]
+}
